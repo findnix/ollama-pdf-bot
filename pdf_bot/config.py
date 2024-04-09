@@ -1,6 +1,6 @@
 import os
 
-base_url = os.environ.get('OLLAMA_API_BASE_URL', "http://192.168.29.223:11434")
+base_url = os.environ.get('OLLAMA_API_BASE_URL', "http://ollama-ubi9.ollama-01.svc.cluster.local:11434")
 if base_url.endswith('/'):
     base_url = base_url.rstrip('/')
 
